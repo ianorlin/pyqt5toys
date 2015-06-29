@@ -48,6 +48,7 @@ class Window(QWidget):
            # resultlabel=QLabel(str(randint(1,20))
 	   # layout.addWidget(resultlabel,1,4) 
         rollout= random.randint(1,20)
+        
     def roll_d6 (self, button):
         rollout= random.randint(1,6)
     def roll_d4 (self, button):
