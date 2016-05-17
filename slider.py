@@ -15,9 +15,13 @@ class Window(QWidget):
         slider.setValue(42)
         layout.addWidget(slider, 0,0 )
 
+        slider2= QSlider(Qt.Horizontal)
+        slider2.setValue(15)
+        layout.addWidget(slider2, 1,0)
+          
 app= QApplication (sys.argv)
 
-screen=Window()
+screen = Window()
 screen.show()
 
 sys.exit(app.exec_())
